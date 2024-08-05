@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.first-block-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sign-in {
+  color: #0070a0;
+  border: none;
+  background-color: white;
+}
+
+.book-button {
+  color: white;
+  background-color: #0070a0;
+  padding: 10px;
+  border: none;
+}
+
+.first-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 40px;
+  width: 300px;
+}
+
+.description {
+  font-size: 18px;
+  width: 300px;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.second-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 20px;
+}
+
+.card {
+  width: 250px;
+  background-color: yellow;
+  padding: 20px;
+}
+
+.second-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+main {
+  margin-bottom: 30px;
+}
